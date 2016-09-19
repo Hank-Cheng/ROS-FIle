@@ -20,16 +20,17 @@ then you can find
 Sketch->library->ros_lib
 
 =====commute to arduino ======
-
+//new
 $roscore
 
-$rosrun rosserial_python serial.node.py _port:=/dev/<USB PORT NAME>
+//new 
+$rosrun rosserial_python serial.node.py _port:=/dev/ [USB PORT NAME]
 
 if you got error, change the permission
 
-$sudo chmod 777 /dev/<USB PORT>
+$sudo chmod 777 /dev/[USB PORT]
 
-
+//new
 send  message to arduino 
 
 $rostopic pub /led std_msgs/Bool true
