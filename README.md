@@ -10,10 +10,13 @@ download arduino rosserial
 $sudo apt-get install ros-indogo-rosserial ros-indigo-rosserial-arduino
 
 Insert the library to arduino 
+
 $cd ~/sketchbook/libraries
+
 $rosrun rosserial_arduino make_libraries.py ~/sketchbook/libraries
 
 then you can find 
+
 Sketch->library->ros_lib
 
 =====commute to arduino ======
@@ -23,10 +26,13 @@ $roscore
 $rosrun rosserial_python serial.node.py _port:=/dev/<USB PORT NAME>
 
 if you got error, change the permission
+
 $sudo chmod 777 /dev/<USB PORT>
 
 
 send  message to arduino 
+
 $rostopic pub /led std_msgs/Bool true
+
 $rostopic pub /led std_msgs/Bool false
 
