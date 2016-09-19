@@ -17,6 +17,7 @@ then you can find
 Sketch->library->ros_lib
 
 =====commute to arduino ======
+
 $roscore
 
 $rosrun rosserial_python serial.node.py _port:=/dev/<USB PORT NAME>
