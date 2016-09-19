@@ -1,7 +1,9 @@
 # ROS-File
 
 Used ROS: indigo
+
 Used Arduino 1.0.6
+
 OS: LUNIX 14.04LTS
 
 
@@ -40,4 +42,7 @@ send  message to arduino
 $rostopic pub /led std_msgs/Bool true
 
 $rostopic pub /led std_msgs/Bool false
+
+Chinses-中文註解-
+這篇是在說明如何運用ROS來連接ARDUINO，將Arduino 連接上ROS node上面
 
