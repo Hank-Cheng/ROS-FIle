@@ -1,14 +1,13 @@
 # ROS-File
+Used ROS: Indigo
 
-Used ROS: indigo
-
-Used Arduino 1.0.6
+Used Arduino:1.0.6
 
 OS: LUNIX 14.04LTS
 
 
 step 1
-download arduino rosserial
+Download arduino rosserial
 $sudo apt-get install ros-indogo-rosserial ros-indigo-rosserial-arduino
 
 Insert the library to arduino 
@@ -45,4 +44,5 @@ $rostopic pub /led std_msgs/Bool false
 
 Chinses-中文註解-
 這篇是在說明如何運用ROS來連接ARDUINO，將Arduino 連接上ROS node上面
+
 
